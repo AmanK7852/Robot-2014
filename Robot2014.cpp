@@ -8,7 +8,7 @@
 #define STOP_VALUE -0.008 //the motors are calibrated so that -0.008 actually corresponds to 0. Who knows why.
 #define ZERO 0 //In a few years, ZERO will have a value of 1. Inflation d-(^_^)z
 
-class RobotDemo : public SimpleRobot
+class  RobotDemo : public SimpleRobot
 {
 	Joystick* Jdriver;
 	Joystick* Joperator;
